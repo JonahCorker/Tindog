@@ -1,0 +1,229 @@
+body{
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h2{
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+p{
+  color: #8f8f8f;
+}
+
+/* TITLE SECTION *******************************************/
+
+.big-heading{
+  font-weight: bold;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+
+#title{
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: left;
+}
+
+
+
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+.iphone6{
+
+transform: rotate(25deg);
+width: 60%;
+position: absolute;
+right: 30%;
+
+}
+
+.navbar-brand{
+
+  font-size: 2rem;
+  font-family: "Ubuntu";
+  font-weight: bold;
+
+}
+
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.button{
+margin: 9% 3% 5% 0;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+
+}
+
+#features{
+
+  padding: 7% 15%;
+  background-color: white;
+  z-index: 1;
+  position: relative;
+
+}
+
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+
+.icon{
+  color: #ef8172;
+  margin-bottom: 1.3rem;
+}
+
+.icon:hover{
+  color: #ff4c68;
+}
+
+/* Testimonials ******************************************************************/
+#testimonials{
+
+text-align: center;
+background-color: #ff4c68;
+color: #fff;
+}
+
+
+
+
+.testimonial-image{
+
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+#press{
+
+  background-color: #ff4c68;
+  text-align: center;
+  padding-bottom: 4%;
+
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 20px;
+}
+/* Testimonials ************************************************************************************/
+
+
+/* CARDS *****************************************************/
+
+.dogs-needs{
+text-align: center;
+padding-top: 80px;
+}
+
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+
+
+
+.price{
+  padding: 3% 2%;
+}
+
+ /* CARDS ************************************************************* */
+
+
+/* MEDIA *****************************************************************/
+@media (max-width: 1028px){
+#title{
+  text-align: center;
+}
+
+
+  .iphone6{
+    position: static;
+    transform: rotate(0);
+    width: 60%;
+  }
+}
+/* MEDIA *********************************************************************/
+
+
+
+#cta{
+  text-align: center;
+  background-color: #ff4c68;
+  color: #fff;
+  font-size: 3.5rem;
+}
+.last{
+  background-color:  #ff4c68;
+  padding-top: 100px;
+  padding-bottom: 80px;
+  padding-left: auto;
+  padding-right: auto;
+
+
+}
+.endnote{
+    color: #fff;
+    line-height: 1.5;
+    font-weight: bold;
+    margin-bottom: 3%;
+
+
+}
+.button-last{
+padding: 0 20px;
+}
+
+.item{
+  padding: 0 18px
+}
+
+.endh3{
+  font-size: 2.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+#footer{
+
+text-align: center;
+padding: 7% 15%;
+}
+
+.social-icon{
+  margin: 20px 8px;
+}
+
+.social-icon:hover{
+  color: #ff4c68;
+}
+
+
+.footer-images{
+width: 100%;
+text-align: center;
+padding-bottom: 20px;
+}
